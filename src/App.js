@@ -10,7 +10,15 @@ const api = {
 function App() {
   return (
     <div className="App">
-      hello
+      <main>
+        <div className="search-box">
+          <input 
+            type="text"
+            className="search-bar"
+            placeholder="search..."
+            />
+        </div>
+      </main>
     </div>
   );
 }
